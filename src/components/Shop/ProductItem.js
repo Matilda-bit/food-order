@@ -10,8 +10,8 @@ const ProductItem = (props) => {
   const { title, price, description, id } = props;
 
   const addToCartHandler = () => {
-    // and then send Http request
-    // fetch('firebase-url', { method: 'POST', body: JSON.stringify(newCart) })
+    
+    //fetch('https://food-order-2024-default-rtdb.firebaseio.com ', { method: 'POST', body: JSON.stringify(newCart) })
 
     dispatch(
       cartActions.addItemToCart({
